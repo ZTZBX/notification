@@ -1,4 +1,4 @@
-# notification system for ZTZBX Framework
+# Notification system for ZTZBX Framework
 
 ### **Requirements**
 - [core-ztzbx](https://github.com/ZTZBX/core-ztzbx)

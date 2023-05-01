@@ -38,8 +38,10 @@ Exports["notification"].send("username","Header", "Sender", "Body");
 // example
 playerUsername = // call client event ho trigger this export Exports["core-ztzbx"].playerUsername() and pass to the function first parameter
 
-Exports["notification"].send(playerUsername, "Dear " + Exports["core-ztzbx"].playerUsername(), "Banker - Central Bank", "If you already have an account, you can't create another one.");
+Exports["notification"].send(playerUsername, "Dear " + playerUsername, "Banker - Central Bank", "If you already have an account, you can't create another one.");
 ```
 ---
 
 *The result of the example:*
+
+![](https://github.com/ZTZBX/notification/blob/main/example_of_notification.png)
